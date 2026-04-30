@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="6" fill="#0a0906"/>
+  <rect x="2" y="2" width="28" height="28" rx="5" fill="none" stroke="#c9a84c" stroke-width="0.6" opacity="0.4"/>
+  <!-- M shape -->
+  <path d="M5 23 L5 10 L10.5 17.5 L16 10 L16 23" fill="none" stroke="#c9a84c" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- A shape -->
+  <path d="M18 23 L22.5 10 L27 23" fill="none" stroke="#c9a84c" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="19.6" y1="18.5" x2="25.4" y2="18.5" stroke="#c9a84c" stroke-width="1.9" stroke-linecap="round"/>
+  <!-- circuit dot accents -->
+  <circle cx="16" cy="10" r="1.6" fill="#c9a84c"/>
+  <circle cx="5" cy="10" r="1" fill="#8a6a2a"/>
+  <circle cx="27" cy="23" r="1" fill="#8a6a2a"/>
+</svg>
