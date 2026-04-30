@@ -1,5 +1,4 @@
 import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
-
 import appCss from "../styles.css?url";
 
 function NotFoundComponent() {
@@ -33,19 +32,15 @@ export const Route = createRootRoute({
       { title: "Muhammad Abdullah — Data Scientist" },
       {
         name: "description",
-        content:
-          "Decoding the Future through Data — ML, NLP and predictive modelling portfolio.",
+        content: "Decoding the Future through Data — ML, NLP and predictive modelling portfolio.",
       },
       { name: "author", content: "Muhammad Abdullah" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { property: "og:title", content: "Muhammad Abdullah — Data Scientist" },
       { name: "twitter:title", content: "Muhammad Abdullah — Data Scientist" },
-      { name: "description", content: "A portfolio of data scientist" },
-      { property: "og:description", content: "A portfolio of data scientist" },
-      { name: "twitter:description", content: "A portfolio of data scientist" },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/08b1673b-2d1a-4a45-804c-04416b147678" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/08b1673b-2d1a-4a45-804c-04416b147678" },
+      { property: "og:description", content: "A portfolio of a data scientist specializing in ML and NLP." },
+      { name: "twitter:description", content: "A portfolio of a data scientist specializing in ML and NLP." },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
